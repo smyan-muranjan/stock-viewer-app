@@ -50,8 +50,9 @@ android {
 }
 
 dependencies {
-
-    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.fragment.ktx)
+    implementation(libs.retrofit)
+    implementation(libs.retrofit2.converter.gson)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
